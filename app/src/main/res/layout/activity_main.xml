@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="3">
+    <!--  Column nCount uses for no. of column   -->
+    <!-- Background tint is used to change the background color for specific block -->
+    <!-- id is used to identify a particular attribute -->
+    <!-- row and column is used to divide the screen in a particular sections -->
+    <Button
+        android:backgroundTint="#FDD835"
+        android:textColor="#1A010A"
+        android:id="@+id/FadeIN"
+        android:layout_row="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FADE IN" />
+
+    <Button
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+
+        android:id="@+id/FadeOUT"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FADE OUT" />
+
+    <Button
+        android:backgroundTint="#FDD835"
+        android:textColor="#fff"
+
+        android:id="@+id/CrossFADE"
+
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROSS FADE" />
+
+    <Button
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:id="@+id/Blink"
+
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLINK" />
+
+    <Button
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:id="@+id/ZoomIN"
+
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZOOM IN" />
+
+    <Button
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:id="@+id/ZoomOUT"
+
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZOOM OUT" />
+
+    <Button
+        android:id="@+id/Rotate"
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROTATE" />
+
+    <Button
+        android:id="@+id/Move"
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOVE" />
+
+    <Button
+        android:id="@+id/SlideUP"
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLIDE UP" />
+
+    <Button
+        android:id="@+id/SlideDOWN"
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLIDE DOWN" />
+
+    <Button
+        android:id="@+id/Bounce"
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOUNCE" />
+
+    <Button
+        android:id="@+id/Sequential"
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEQUENTIAL" />
+    <Button
+        android:id="@+id/Togther"
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOGETHER" />
+    <Button
+        android:id="@+id/login"
+
+        android:backgroundTint="#FB8C00"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN " />
+    <Button
+        android:id="@+id/LottieFILES"
+
+        android:backgroundTint="#FDD835"
+        android:textColor="#110202"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOTTIE FILES" />
+</GridLayout>

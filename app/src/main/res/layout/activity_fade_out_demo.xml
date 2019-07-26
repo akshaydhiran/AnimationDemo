@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FadeOutDemo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/fadeout"
+        android:textSize="60dp"
+        android:textColor="#FA4005"
+        android:text="FADE OUT"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:text="START ANIMATION"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
